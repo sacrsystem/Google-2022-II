@@ -1,4 +1,4 @@
-hola mundo
+<?php include('index1.php'); ?>
 <?php
    
     
