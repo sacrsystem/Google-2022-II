@@ -64,7 +64,7 @@ $seleccionArchivos.addEventListener("change", () => {
   var imagenes = document.getElementById("seleccionArchivos").files[0].name;
   $.ajax({
     type: "POST",
-    url: "/",
+    url: "/busqueda",
     data: {value: imagenes},   // <== change is here
     success: function(msg){
         $("#notificaciones").load(msg);
@@ -218,7 +218,7 @@ const llenarSelectConDispositivosDisponibles = () => {
 						.then(nombreDeLaFoto => {
 							// nombreDeLaFoto trae el nombre de la imagen que le dio PHP
 							console.log("La foto fue enviada correctamente");
-              				$("#notasimg").load("/");
+              				$("#notasimg").load("/busqueda");
 							$estado.innerHTML = `Foto guardada con éxito. Puedes verla <a target='_blank' href='./${nombreDeLaFoto}'> aquí</a>`;
 						})
  

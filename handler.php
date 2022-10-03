@@ -57,6 +57,9 @@ switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
     case '/Buscar':
             require 'buscar.php';
             break;
+    case '/busqueda':
+            require 'busqueda.php';
+            break;
     default:
         http_response_code(404);
         exit('Not Found');
