@@ -1,6 +1,3 @@
-<head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
 <div class="row">
     <div class="col-md-6">
 <form action="'/imagen/check' ?>" method="post" enctype="multipart/form-data">
@@ -62,16 +59,8 @@ $seleccionArchivos.addEventListener("change", () => {
   // Y a la fuente de la imagen le ponemos el objectURL
   $imagenPrevisualizacion.src = objectURL;
   var imagenes = document.getElementById("seleccionArchivos").files[0].name;
-  $.ajax({
-    type: "POST",
-    url: "/",
-    data: {value: imagenes},   // <== change is here
-    success: function(msg){
-        $("#notificaciones").load(msg);
-    }
-	});
-
   
+  $("#notificaciones").load("/");
   
 });
 </script>
@@ -204,7 +193,7 @@ const llenarSelectConDispositivosDisponibles = () => {
  
 					let foto = $canvas.toDataURL(); //Esta es la foto, en base 64
 					$estado.innerHTML = "Enviando foto. Por favor, espera...";
-					fetch("/proceso", {
+					fetch("/guardar_imagen", {
 						method: "POST",
 						body: encodeURIComponent(foto),
 						headers: {
@@ -218,7 +207,7 @@ const llenarSelectConDispositivosDisponibles = () => {
 						.then(nombreDeLaFoto => {
 							// nombreDeLaFoto trae el nombre de la imagen que le dio PHP
 							console.log("La foto fue enviada correctamente");
-              				$("#notasimg").load("/busqueda");
+              $("#notasimg").load("nombreDeLaFoto");
 							$estado.innerHTML = `Foto guardada con éxito. Puedes verla <a target='_blank' href='./${nombreDeLaFoto}'> aquí</a>`;
 						})
  
