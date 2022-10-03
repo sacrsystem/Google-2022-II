@@ -75,6 +75,9 @@ switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
     case '/f_registro_usuario':
         require 'f_registro_usuario.php';
         break;
+    case '/cerrar':
+        require 'cerrar.php';
+        break;
     default:
         http_response_code(404);
         exit('Not Found');
