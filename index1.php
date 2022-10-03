@@ -35,6 +35,9 @@ if(isset($_SESSION["usuario"]))
         <li class="nav-item dropdown">
           <a class="nav-link text-white" href="/VerPedido">VER PEDIDOS</a>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-white" href="Buscar">BUSCAR</a>
+        </li>
         
       </ul>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
