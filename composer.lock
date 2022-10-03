@@ -70,16 +70,16 @@
         },
         {
             "name": "google/auth",
-            "version": "v1.22.0",
+            "version": "v1.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "da4037df770027c8f7163595a29ec434f705f8b1"
+                "reference": "8da16102d2cd1bdc128d97f323553df465ee7701"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/da4037df770027c8f7163595a29ec434f705f8b1",
-                "reference": "da4037df770027c8f7163595a29ec434f705f8b1",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/8da16102d2cd1bdc128d97f323553df465ee7701",
+                "reference": "8da16102d2cd1bdc128d97f323553df465ee7701",
                 "shasum": ""
             },
             "require": {
@@ -122,9 +122,9 @@
             "support": {
                 "docs": "https://googleapis.github.io/google-auth-library-php/main/",
                 "issues": "https://github.com/googleapis/google-auth-library-php/issues",
-                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.22.0"
+                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.23.0"
             },
-            "time": "2022-09-01T17:07:07+00:00"
+            "time": "2022-09-27T16:27:23+00:00"
         },
         {
             "name": "google/cloud-core",
@@ -293,16 +293,16 @@
         },
         {
             "name": "google/gax",
-            "version": "v1.16.4",
+            "version": "v1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/gax-php.git",
-                "reference": "29d29adda023e2b3b4b00394130d551af705318e"
+                "reference": "bb8d95187dcfebe04a40d2de916951fa4942fc35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/gax-php/zipball/29d29adda023e2b3b4b00394130d551af705318e",
-                "reference": "29d29adda023e2b3b4b00394130d551af705318e",
+                "url": "https://api.github.com/repos/googleapis/gax-php/zipball/bb8d95187dcfebe04a40d2de916951fa4942fc35",
+                "reference": "bb8d95187dcfebe04a40d2de916951fa4942fc35",
                 "shasum": ""
             },
             "require": {
@@ -343,9 +343,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/gax-php/issues",
-                "source": "https://github.com/googleapis/gax-php/tree/v1.16.4"
+                "source": "https://github.com/googleapis/gax-php/tree/v1.17.0"
             },
-            "time": "2022-08-25T19:51:56+00:00"
+            "time": "2022-09-12T15:22:54+00:00"
         },
         {
             "name": "google/grpc-gcp",
@@ -438,16 +438,16 @@
         },
         {
             "name": "google/protobuf",
-            "version": "v3.21.5",
+            "version": "v3.21.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/protocolbuffers/protobuf-php.git",
-                "reference": "70649d33d2b6e8fd0db6d9b6fffc7f46f01f1438"
+                "reference": "56505903b395c5d38cbf4c8575bfef4f4c9d4c30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/70649d33d2b6e8fd0db6d9b6fffc7f46f01f1438",
-                "reference": "70649d33d2b6e8fd0db6d9b6fffc7f46f01f1438",
+                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/56505903b395c5d38cbf4c8575bfef4f4c9d4c30",
+                "reference": "56505903b395c5d38cbf4c8575bfef4f4c9d4c30",
                 "shasum": ""
             },
             "require": {
@@ -476,9 +476,9 @@
                 "proto"
             ],
             "support": {
-                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v3.21.5"
+                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v3.21.7"
             },
-            "time": "2022-08-09T19:53:56+00:00"
+            "time": "2022-09-29T21:58:56+00:00"
         },
         {
             "name": "grpc/grpc",
@@ -1320,25 +1320,25 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.0.2",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "26954b3d62a6c5fd0ea8a2a00c0353a14978d05c"
+                "reference": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/26954b3d62a6c5fd0ea8a2a00c0353a14978d05c",
-                "reference": "26954b3d62a6c5fd0ea8a2a00c0353a14978d05c",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
+                "reference": "07f1b9cc2ffee6aaafcf4b710fbc38ff736bd918",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.2"
+                "php": ">=8.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "3.0-dev"
+                    "dev-main": "3.1-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -1367,7 +1367,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.0.2"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.1.1"
             },
             "funding": [
                 {
@@ -1383,7 +1383,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-02T09:55:41+00:00"
+            "time": "2022-02-25T11:15:52+00:00"
         }
     ],
     "packages-dev": [],

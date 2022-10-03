@@ -5,7 +5,6 @@ use Google\Cloud\Vision\V1\ImageAnnotatorClient;
 use Google\Cloud\Vision\V1\Feature\Type;
 use Google\Cloud\Vision\V1\Likelihood;
 
-/*
 $count=0;
 $imageAnnotator = new ImageAnnotatorClient(
     [
@@ -29,4 +28,4 @@ $path = "https://img.freepik.com/vector-gratis/conjunto-muebles-hogar_74855-1546
      foreach ($vertices as $vertex) {
          printf(' (%f, %f)', $vertex->getX(), $vertex->getY());
      }
-     print(PHP_EOL);} */?>
+     print(PHP_EOL);}?>
