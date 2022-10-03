@@ -18,10 +18,10 @@ if(move_uploaded_file($_FILES['imagen']['tmp_name'], $target_path)) {
  }
 
 if($resultado == "1"){
-    header("Location: CatalogoA.php");
+    header("Location: /CatalogoA");
     die();
 }else{
-    header("Location: CrearProducto.php");
+    header("Location: /CrearProducto");
     die();
 }
 

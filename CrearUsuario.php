@@ -1,7 +1,7 @@
 
   <?php include('index.php'); ?>
 
-  <form action ="f_registro_usuario.php" method="post">
+  <form action ="/f_registro_usuario" method="post">
     <div class="bg-secondary.bg-gradient p-5 rounded-5 text-secondary shadow"
       style="width: 25rem">
       <div class="text-center fs-1 fw-bold">Registro</div>
