@@ -54,6 +54,27 @@ switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
     case '/homeC':
         require 'homeC.php';
         break;
+    case '/f_agregar_carrito':
+        require 'f_agregar_carrito.php';
+        break;
+    case '/f_agregar_producto':
+        require 'f_agregar_producto.php';
+        break;
+    case '/f_editar_producto':
+        require 'f_editar_producto.php';
+        break;
+    case '/f_eliminar_producto_carrito':
+        require 'f_eliminar_producto_carrito.php';
+        break;
+    case '/f_eliminar_producto':
+        require 'f_eliminar_producto.php';
+        break;
+    case '/f_loguear_producto':
+        require 'f_loguear_producto.php';
+        break;
+    case '/f_registro_usuario':
+        require 'f_registro_usuario.php';
+        break;
     default:
         http_response_code(404);
         exit('Not Found');
