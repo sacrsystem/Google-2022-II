@@ -15,7 +15,7 @@ $data = json_decode(file_get_contents($url),true);
 <?php 
 foreach( $data as $d ){
 ?>
-  <form action="f_editar_producto.php" method="POST"  enctype="multipart/form-data">
+  <form action="/f_editar_producto" method="POST"  enctype="multipart/form-data">
             <input type="hidden" name="idProducto" id="idProducto" class="form-control" value = "<?php echo $idProducto;?>">
 
             <div>
