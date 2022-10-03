@@ -67,7 +67,7 @@ $seleccionArchivos.addEventListener("change", () => {
     url: "/busqueda",
     //data: {value: imagenes},   // <== change is here
     success: function(msg){
-        $("#notificaciones").load(msg);
+        $("#notasimg").load(msg);
     }
 	});
 
