@@ -24,16 +24,19 @@ if(isset($_SESSION["usuario"]))
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item dropdown">
-          <a class="nav-link active text-white" aria-current="page" href="homeC.php">INICIO</a>
+          <a class="nav-link active text-white" aria-current="page" href="/homeC">INICIO</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link text-white" href="CatalogoC.php">CATALOGO</a>
+          <a class="nav-link text-white" href="/CatalogoC">CATALOGO</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link text-white" href="CrearCarrito.php">CARRITO</a>
+          <a class="nav-link text-white" href="/CrearCarrito">CARRITO</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link text-white" href="VerPedido.php">VER PEDIDOS</a>
+          <a class="nav-link text-white" href="/VerPedido">VER PEDIDOS</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-white" href="Buscar">BUSCAR</a>
         </li>
         
       </ul>
