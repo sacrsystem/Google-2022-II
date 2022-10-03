@@ -1,6 +1,6 @@
 <?php 
 
-include('/index'); 
+include('index.php'); 
 $mensaje = "";
 
 if(isset($_REQUEST['mensaje'])){
@@ -9,7 +9,7 @@ if(isset($_REQUEST['mensaje'])){
 
 ?>
 
-<form action = "f_loguear_usuario.php" method ="post">
+<form action = "/f_loguear_usuario" method ="post">
     <div class="bg-secondary.bg-gradient p-5 rounded-5 text-secondary shadow" style="width: 25rem">
       <div class="text-center fs-1 fw-bold">Login</div>
       <div class="input-group mt-4">
