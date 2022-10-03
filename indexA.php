@@ -31,13 +31,13 @@ if(isset($_REQUEST['usuario'])){
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item dropdown">
-          <a class="nav-link active text-white" aria-current="page" href="homeA.php">INICIO</a>
+          <a class="nav-link active text-white" aria-current="page" href="/homeA">INICIO</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link text-white" href="CrearProducto.php">INGRESAR PRODUCTO</a>
+          <a class="nav-link text-white" href="/CrearProducto">INGRESAR PRODUCTO</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link text-white" href="CatalogoA.php">CATALOGO</a>
+          <a class="nav-link text-white" href="/CatalogoA">CATALOGO</a>
         </li>
 
         <li class="nav-item dropdown">
