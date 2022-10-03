@@ -69,8 +69,8 @@ switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
     case '/f_eliminar_producto':
         require 'f_eliminar_producto.php';
         break;
-    case '/f_loguear_producto':
-        require 'f_loguear_producto.php';
+    case '/f_loguear_usuario':
+        require 'f_loguear_usuario.php';
         break;
     case '/f_registro_usuario':
         require 'f_registro_usuario.php';
