@@ -1,6 +1,6 @@
 <?php include('indexA.php'); ?>
 
-<form action="f_agregar_producto" method="POST"  enctype="multipart/form-data">
+<form action="/f_agregar_producto" method="POST"  enctype="multipart/form-data">
     <div class="bg-secondary.bg-gradient p-5 rounded-5 text-secondary shadow"
       style="width: 35rem">
       <div class="text-center fs-1 fw-bold">Crear Producto</div>

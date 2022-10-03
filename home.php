@@ -1,4 +1,4 @@
-<?php include('/index'); ?>
+<?php include('index.php'); ?>
 </div>
 <head>
 		<meta charset="utf-8" />
