@@ -1,6 +1,6 @@
 <?php 
 
-include('index.php'); 
+include('/index'); 
 $mensaje = "";
 
 if(isset($_REQUEST['mensaje'])){
