@@ -1,6 +1,6 @@
 <?php 
 
-include('index.php'); 
+include('/index'); 
 $mensaje = "";
 
 if(isset($_REQUEST['mensaje'])){
@@ -29,7 +29,7 @@ if(isset($_REQUEST['mensaje'])){
       <a class="btn btn-dark text-white w-100 mt-4 fw-semibold shadow-sm" href="indexA.php">LOGINA</a>
    -->
       <div class="d-flex gap-1 justify-content-center mt-1">
-        <a  href="CrearUsuario.php" class="text-decoration-none text-dark fw-semibold">LOGIN</a>
+        <a  href="/CrearUsuario" class="text-decoration-none text-dark fw-semibold">LOGIN</a>
       <div class="alert alert-primary" role="alert">
  <?php echo $mensaje;?>
 </div>
