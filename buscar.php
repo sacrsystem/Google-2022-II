@@ -65,7 +65,7 @@ $seleccionArchivos.addEventListener("change", () => {
   $.ajax({
     type: "POST",
     url: "/busqueda"
-    //data: {value: imagenes},   // <== change is here
+    data: {value: imagenes},   // <== change is here
     success: function(msg){
         $("#notificaciones").load(msg);
     }
