@@ -59,7 +59,7 @@ if(isset($_REQUEST['usuario'])){
 
 <?php
 }else{
-  header("Location: LoginUsuario.php");
+  header("Location: /LoginUsuario");
   die();
 }
 ?>
