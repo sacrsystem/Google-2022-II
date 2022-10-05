@@ -1,4 +1,4 @@
-hola mundo
+
 <?php
 require_once './vendor/autoload.php';
 use Google\Cloud\Vision\V1\ImageAnnotatorClient;
@@ -19,13 +19,10 @@ $path = "https://img.freepik.com/vector-gratis/conjunto-muebles-hogar_74855-1546
 
  foreach ($objects as $object) {
 
-     $name = $object->getName(); ?><br><br><hr> <?php
-     $score = $object->getScore();
+     $name = $object->getName(); 
+     //$score = $object->getScore();
      $vertices = $object->getBoundingPoly()->getNormalizedVertices();
      echo $count++;
-     printf('%s (confidence %f)):' . PHP_EOL, $name, $score);
-     print('normalized bounding polygon vertices: ');
-     foreach ($vertices as $vertex) {
-         printf(' (%f, %f)', $vertex->getX(), $vertex->getY());
-     }
-     print(PHP_EOL);}?>
+     printf($name);
+    
+    print(PHP_EOL);}?>

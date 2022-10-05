@@ -12,7 +12,10 @@
             </div>
             <div>
                 <label for="descripcion">Detaller Mueble</label>
-                <input type="text" name="descripcion" id="descripcion" class="form-control">
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10" class="form-control">
+                
+                </textarea>
+                
             </div>
             <div>
                 <label for="precio">Precio</label>
@@ -24,14 +27,52 @@
             </div>
             <div>
                 <label for="imagen">imagen</label>
-                <input type="file" name="imagen" id="imagen" class="form-control">
+                <input type="file" name="seleccionArchivos" id="seleccionArchivos" class="form-control">
+                <img class="img-thumbnail" id="imagenPrevisualizacion" src=""><br>
             </div>
-
+            
             <div>
 
                 <input type="submit" class="btn btn-warning" value="REGISTRAR"/>
             </div>
     </div>
 <form>
+
+<script>
+    const $seleccionArchivos = document.querySelector("#seleccionArchivos"),
+    $imagenPrevisualizacion = document.querySelector("#imagenPrevisualizacion");
+
+// Escuchar cuando cambie
+$seleccionArchivos.addEventListener("change", () => {
+  // Los archivos seleccionados, pueden ser muchos o uno
+  const archivos = $seleccionArchivos.files;
+  // Si no hay archivos salimos de la función y quitamos la imagen
+  if (!archivos || !archivos.length) {
+    $imagenPrevisualizacion.src = "";
+    return;
+  }
+  // Ahora tomamos el primer archivo, el cual vamos a previsualizar
+  const primerArchivo = archivos[0];
+  // Lo convertimos a un objeto de tipo objectURL
+  const objectURL = URL.createObjectURL(primerArchivo);
+  // Y a la fuente de la imagen le ponemos el objectURL
+  $imagenPrevisualizacion.src = objectURL;
+  var imagenes = document.getElementById("seleccionArchivos").files[0].name;
+  $("#descripcion").load("http://localhost/GOOGLE2022-II/busqueda.php");
+  /*$.ajax({
+    type: "POST",
+    url: "/busqueda",
+    //data: {value: imagenes},   // <== change is here
+    success: function(msg){
+        $("#notificaciones").load("/busqueda.php");
+    }
+	});
+*/
+  
+  
+});
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+<script src="ckeditor/ckeditor.js" type="text/javascript"></script>
 
 
