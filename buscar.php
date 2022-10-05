@@ -1,4 +1,4 @@
-<?php include("/index"); ?>
+<?php include("index.php"); ?>
 <head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
@@ -64,7 +64,7 @@ $seleccionArchivos.addEventListener("change", () => {
   // Y a la fuente de la imagen le ponemos el objectURL
   $imagenPrevisualizacion.src = objectURL;
   var imagenes = document.getElementById("seleccionArchivos").files[0].name;
-    $("#catalogo").load("Catalogobuscar.php");
+    $("#catalogo").load("/Catalogobuscar");
    
 
   
@@ -214,7 +214,7 @@ const llenarSelectConDispositivosDisponibles = () => {
 						.then(nombreDeLaFoto => {
 							// nombreDeLaFoto trae el nombre de la imagen que le dio PHP
 							console.log("La foto fue enviada correctamente");
-							$("#catalogo").load("Catalogobuscar.php");
+							$("#catalogo").load("/Catalogobuscar");
 							$estado.innerHTML = `Foto guardada con éxito. Puedes verla <a target='_blank' href='./${nombreDeLaFoto}'> aquí</a>`;
 						})
  
