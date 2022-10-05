@@ -49,7 +49,7 @@ if(isset($_REQUEST['usuario'])){
 
       </ul>
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-        <a href="/cerrar?cerrar=yes">Cerrar</a>
+        <a href="/cerrar?cerrar=yes">CERRAR SESION</a>
       </div>
     </div>
   </div>
