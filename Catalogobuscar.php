@@ -1,13 +1,14 @@
-<?php 
-
-$stringApi = "https://restaurantesofi.000webhostapp.com/serviciosMuebles/buscarProducto.php";
+<?php
+$descripcion = $_GET['descripcion'];
+//https://restaurantesofi.000webhostapp.com/serviciosMuebles/loguearUsuario.php?correo=".$correo."&pasword=".$psw
+$stringApi = "https://restaurantesofi.000webhostapp.com/serviciosMuebles/buscarProducto.php?descripcion=".$descripcion;
 $data = json_decode(file_get_contents($stringApi),true);
 
 
 ?>
 
     <div class="bg-secondary.bg-gradient p-5 rounded-5 text-secondary shadow mt-1" style="width: 90rem">
-      <div class="text-center fs-1 fw-bold">CATALOGO</div>
+      <div class="text-center fs-1 fw-bold">Productos Similares</div>
       <div class="input-group mt-1">
        <div> 
        <div>
