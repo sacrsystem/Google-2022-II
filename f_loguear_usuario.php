@@ -22,11 +22,11 @@ if($idUsuario == 0){
     die();
 } else{
     if($tipoUser =="administrador"){
-        header("Location: /indexA?idUsuario=".$idUsuario."&usuario=".$tipoUser);
+        header("Location: /homeA?idUsuario=".$idUsuario."&usuario=".$tipoUser);
         die();
     }
     if($tipoUser =="cliente"){
-        header("Location: /index1?idUsuario=".$idUsuario."&usuario=".$tipoUser);
+        header("Location: /homeC?idUsuario=".$idUsuario."&usuario=".$tipoUser);
         die();
     }
 }
