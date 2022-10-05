@@ -7,7 +7,7 @@ if(isset($_GET['cerrar'])) {
   unset($_SESSION['idUsuario']);
   
   //Redireccionamos a la pagina index.php
-  header('Location: /index');
+  header('Location: /LoginUsuario');
 }
 
 ?>
