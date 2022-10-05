@@ -64,7 +64,7 @@ $seleccionArchivos.addEventListener("change", () => {
   // Y a la fuente de la imagen le ponemos el objectURL
   $imagenPrevisualizacion.src = objectURL;
   var imagenes = document.getElementById("seleccionArchivos").files[0].name;
-    $("#catalogo").load("/Catalogobuscar");
+    $("#catalogo").load("Catalogobuscar.php?descripcion=J");
    
 
   
