@@ -8,7 +8,7 @@ echo $url;
 $resultado = file_get_contents($url);
 
 if($resultado == "1"){
-    header("Location: /CatalogoC");
+    header("Location: /CrearCarrito");
     die();
 }
 ?>
