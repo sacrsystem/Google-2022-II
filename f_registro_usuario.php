@@ -9,12 +9,12 @@ $resultado = file_get_contents($url);
 
     if($usuario == "'cliente'")
     {
-        header("Location: /index1");
+        header("Location: /LoginUsuario");
         die();
     }
     if($usuario == "administrador")
     {
-        header("Location: /indexA");
+        header("Location: /LoginUsuario");
         die();
     }
 
