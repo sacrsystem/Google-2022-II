@@ -18,12 +18,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item dropdown">
-          <a class="nav-link text-white" href="/CrearUsuario">REGISTRO</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link text-white" href="/LoginUsuario">INICIAR SESION</a>
-        </li>
+        
         <li class="nav-item dropdown">
           <a class="nav-link text-white" href="/Catalogo">CATALOGO</a>
         </li>
@@ -31,6 +26,12 @@
           <a class="nav-link text-white" href="Buscar">BUSCAR</a>
         </li>
       </ul>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-white" href="/CrearUsuario">REGISTRO</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-white" href="/LoginUsuario">INICIAR SESION</a>
+        </li>
       <!-- a -->
       
     </div>
