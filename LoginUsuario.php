@@ -8,8 +8,10 @@ if(isset($_REQUEST['mensaje'])){
 }
 
 ?>
-
+<br>
+<br>
 <form action = "/f_loguear_usuario" method ="post">
+<div class="d-grid gap-3 col-4 mx-auto">
     <div class="bg-secondary.bg-gradient p-5 rounded-5 text-secondary shadow" style="width: 25rem">
       <div class="text-center fs-1 fw-bold">Login</div>
       <div class="input-group mt-4">
@@ -36,5 +38,6 @@ if(isset($_REQUEST['mensaje'])){
 
       </div>
     </div>
+</div>
 </form>
 

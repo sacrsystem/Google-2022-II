@@ -1,7 +1,9 @@
 
   <?php include('index.php'); ?>
-
+<br>
+<br>
   <form action ="/f_registro_usuario" method="post">
+  <div class="d-grid gap-3 col-4 mx-auto">
     <div class="bg-secondary.bg-gradient p-5 rounded-5 text-secondary shadow"
       style="width: 25rem">
       <div class="text-center fs-1 fw-bold">Registro</div>
@@ -35,6 +37,7 @@
     </div>
 
     </div>
+</div>
 </form>
 
 
