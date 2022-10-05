@@ -57,8 +57,8 @@ switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
     case '/Buscar':
             require 'buscar.php';
             break;
-    case '/busqueda':
-            require 'busqueda.php';
+    case '/Catalogobuscar':
+            require 'Catalogobuscar.php';
             break;
     case '/hola':
             require 'hola.php';
