@@ -1,7 +1,7 @@
 <?php
 switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
     case '/':
-        require 'index.php';
+        require 'home.php';
         break;
     case '/Vista/Usuario/CrearUsuario.php':
         require '/Vista/Usuario/CrearUsuario.php';
