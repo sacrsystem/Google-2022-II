@@ -9,7 +9,7 @@ $resultado = file_get_contents($url);
 
 if($resultado == "1"){
     header("https://venta-muebles-tp.uc.r.appspot.com/CatalogoC");
-    die();
+    
 }
 
 ?>
