@@ -61,7 +61,20 @@ $seleccionArchivos.addEventListener("change", () => {
   // Y a la fuente de la imagen le ponemos el objectURL
   $imagenPrevisualizacion.src = objectURL;
   var imagenes = document.getElementById("seleccionArchivos").files[0].name;
-  $("#descripcion").load("/busqueda");
+  $.ajax({
+                url: 'busqueda.php',
+                dataType: 'text',
+                type: 'post',
+                contentType: 'application/x-www-form-urlencoded',
+                data: {lin:imagenes},
+                success: function( data, textStatus, jQxhr ){
+                    $('#descripcion').html( data );
+                },
+                error: function( jqXhr, textStatus, errorThrown ){
+                    console.log( errorThrown );
+                }
+            });
+  //$("#descripcion").load("/busqueda");
   /*$.ajax({
     type: "POST",
     url: "/busqueda",
