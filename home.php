@@ -9,7 +9,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./images/23.webp" class="d-block w-100" alt="...">
+      <img src="./images/4.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5 class="fs-1">Muebles Mi Casa</h5>
         <p class="fs-1">las tendencias desaparecen el estilo es eterno.</p>
@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="./images/23.webp" class="d-block w-100" alt="...">
+      <img src="./images/4.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5 class="fs-1">VISIÓN:</h5>
         <p class="fs-1">Some representative placeholder content for the third slide.</p>
