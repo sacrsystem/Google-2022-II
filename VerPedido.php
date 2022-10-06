@@ -10,7 +10,7 @@ $data = json_decode(file_get_contents($url),true);
       class="bg-secondary.bg-gradient p-5 rounded-5 text-secondary shadow" style="width: 90rem">
      
 
-      <div class="text-center fs-1 fw-bold">Lista de Pedidos</div>
+      <div class="text-center fs-1 fw-bold">Ver de Pedidos</div>
       <div class="input-group mt-1">
        <div> 
 
