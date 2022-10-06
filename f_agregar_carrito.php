@@ -3,7 +3,7 @@ $idProducto = urlencode($_REQUEST['idProducto']);
 session_start();
 $idUsuario =$_SESSION["idUsuario"];
 
-$url = "https://restaurantesofi.000webhostapp.com/serviciosMuebles/agregarProductoCarrito?idUsuario=".$idUsuario."&idProducto=".$idProducto;
+$url = "https://restaurantesofi.000webhostapp.com/serviciosMuebles/agregarProductoCarrito.php?idUsuario=".$idUsuario."&idProducto=".$idProducto;
 echo $url;
 $resultado = file_get_contents($url);
 
