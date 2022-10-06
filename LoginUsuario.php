@@ -8,8 +8,10 @@ if(isset($_REQUEST['mensaje'])){
 }
 
 ?>
-
-<form action = "f_loguear_usuario.php" method ="post">
+<br>
+<br>
+<form action = "/f_loguear_usuario" method ="post">
+<div class="d-grid gap-3 col-4 mx-auto">
     <div class="bg-secondary.bg-gradient p-5 rounded-5 text-secondary shadow" style="width: 25rem">
       <div class="text-center fs-1 fw-bold">Login</div>
       <div class="input-group mt-4">
@@ -29,12 +31,13 @@ if(isset($_REQUEST['mensaje'])){
       <a class="btn btn-dark text-white w-100 mt-4 fw-semibold shadow-sm" href="indexA.php">LOGINA</a>
    -->
       <div class="d-flex gap-1 justify-content-center mt-1">
-        <a  href="CrearUsuario.php" class="text-decoration-none text-dark fw-semibold">LOGIN</a>
+        <a  href="/CrearUsuario" class="text-decoration-none text-dark fw-semibold">REGISTRO</a>
       <div class="alert alert-primary" role="alert">
  <?php echo $mensaje;?>
 </div>
 
       </div>
     </div>
+</div>
 </form>
 

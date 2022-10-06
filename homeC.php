@@ -43,7 +43,7 @@
 								<h3>Muebles Nuevos </h3>
 								<p>Los muebles modernos para su hogar han sido diseñados manteniendo a la vista el lugar disponible en un hoga.</p>
 								<ul class="actions special">
-									<li><a href="CatalogoC.php" class="button alt">Catalogo</a></li>
+									<li><a href="/CatalogoC" class="button alt">Catalogo</a></li>
 								</ul>
 							</section>
 
@@ -55,7 +55,7 @@
 								<h3>Muebles Usados </h3>
 								<p>los muebles viejos tienen una durabilidad superior a las opciones que encontramos hoy.</p>
 								<ul class="actions special">
-									<li><a href="CatalogoC.php" class="button alt">Catalogo</a></li>
+									<li><a href="/CatalogoC" class="button alt">Catalogo</a></li>
 								</ul>
 							</section>
 

@@ -18,15 +18,15 @@ $_SESSION["idUsuario"] = $idUsuario;
 
 
 if($idUsuario == 0){
-    header("Location: LoginUsuario.php?mensaje='Usuario no registrado'");
+    header("Location: /LoginUsuario?mensaje='Usuario no registrado'");
     die();
 } else{
     if($tipoUser =="administrador"){
-        header("Location: indexA.php?idUsuario=".$idUsuario."&usuario=".$tipoUser);
+        header("Location: /homeA?idUsuario=".$idUsuario."&usuario=".$tipoUser);
         die();
     }
     if($tipoUser =="cliente"){
-        header("Location: index1.php?idUsuario=".$idUsuario."&usuario=".$tipoUser);
+        header("Location: /homeC?idUsuario=".$idUsuario."&usuario=".$tipoUser);
         die();
     }
 }

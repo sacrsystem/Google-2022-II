@@ -1,6 +1,8 @@
 <?php include('indexA.php'); ?>
-
-<form action="f_agregar_producto" method="POST"  enctype="multipart/form-data">
+<br>
+<br>
+<form action="/f_agregar_producto" method="POST"  enctype="multipart/form-data">
+<div class="d-grid gap-3 col-4 mx-auto">
     <div class="bg-secondary.bg-gradient p-5 rounded-5 text-secondary shadow"
       style="width: 35rem">
       <div class="text-center fs-1 fw-bold">Crear Producto</div>
@@ -36,6 +38,7 @@
                 <input type="submit" class="btn btn-warning" value="REGISTRAR"/>
             </div>
     </div>
+</div>
 <form>
 
 <script>

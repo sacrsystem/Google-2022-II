@@ -5,7 +5,7 @@ $url = "https://restaurantesofi.000webhostapp.com/serviciosMuebles/eliminarProdu
 $resultado = file_get_contents($url);
 
 if($resultado == "1"){
-    header("Location: CatalogoA.php");
+    header("Location: /CatalogoA");
     die();
 }
 ?>
