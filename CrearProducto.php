@@ -66,7 +66,7 @@ $seleccionArchivos.addEventListener("change", () => {
                     type:'POST',
                     data:{lin:objectURL},
                     success:function(result){
-                       alert(result);
+                    ("#descripcion").load(result);
                     }
             });
   //$("#descripcion").load("/busqueda");
