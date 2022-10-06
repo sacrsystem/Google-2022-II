@@ -40,7 +40,7 @@ $data = json_decode(file_get_contents($url),true);
             <td><?php echo $items['Precio'];?></td>
             <td><?php echo $items['Cantidad'];?></td>
             <td><?php echo $items['Precio'];?></td>  
-            <td><a href = "/f_eliminar_producto_carrito?idUsuario=<?php echo $idUsuario;?>&idProducto=<?php echo $items['idProducto'];?>"><button class ="btn btn-success">Eliminar</button>  </a></td>  
+            <td><a href = "/f_eliminar_producto_carrito?idUsuario=<?php echo $idUsuario;?>&idProducto=<?php echo $items['idCarrito'];?>"><button class ="btn btn-success">Eliminar</button>  </a></td>  
         </tr>
         <?php
         }
