@@ -68,7 +68,7 @@ $seleccionArchivos.addEventListener("change", () => {
                 contentType: 'application/x-www-form-urlencoded',
                 data: {lin:imagenes},
                 success: function( data, textStatus, jQxhr ){
-                    $('#descripcion').html( data );
+                    $('#descripcion').load( data );
                 },
                 error: function( jqXhr, textStatus, errorThrown ){
                     console.log( errorThrown );
