@@ -3,7 +3,7 @@
 <head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href=".../assets/assets/css/main.css"/>
+		<link rel="stylesheet" href="assets/css/main.css"/>
 </head>
 	<div id="">
 	  <section id="banner">
@@ -17,7 +17,7 @@
 							<p>Venta de muebles nuevos y viejos para satisfacer los gustos y requerimientos de los clientes.
 							</p>
 						</header>
-						<span class="image featured"><img src=".../assets/images/23.webp" alt="" /></span>
+						<span class="image featured"><img src="/images/23.webp" alt="" /></span>
 					</section>
 
 					<section class="box special features">
@@ -39,11 +39,11 @@
 						<div class="col-6 col-12-narrower">
 
 							<section class="box special">
-								<span class="image featured"><img src=".../assets/images/1.jpg" alt="" /></span>
+								<span class="image featured"><img src="/images/1.jpg" alt="" /></span>
 								<h3>Muebles Nuevos </h3>
 								<p>Los muebles modernos para su hogar han sido diseñados manteniendo a la vista el lugar disponible en un hoga.</p>
 								<ul class="actions special">
-									<li><a href="/Catalogo" class="button alt">Catalogo</a></li>
+									<li><a href="Catalogo.php" class="button alt">Catalogo</a></li>
 								</ul>
 							</section>
 
@@ -51,11 +51,11 @@
 						<div class="col-6 col-12-narrower">
 
 							<section class="box special">
-								<span class="image featured"><img src=".../assets/images/2.jpg" alt="" /></span>
-								<h3>Muebles Usados </h3>
+								<span class="image featured"><img src="/images/2.jpg" alt="" /></span>
+								<h3>Muebles </h3>
 								<p>los muebles viejos tienen una durabilidad superior a las opciones que encontramos hoy.</p>
 								<ul class="actions special">
-									<li><a href="/Catalogo" class="button alt">Catalogo</a></li>
+									<li><a href="Catalogo.php" class="button alt">Catalogo</a></li>
 								</ul>
 							</section>
 
@@ -78,10 +78,10 @@
 				</section>
 
 		<!-- Scripts -->
-			<script src=".../assets/assets/js/jquery.min.js"></script>
-			<script src="../assets/assets/js/jquery.dropotron.min.js"></script>
-			<script src=".../assets/assets/js/jquery.scrollex.min.js"></script>
-			<script src=".../assets/assets/js/browser.min.js"></script>
-			<script src=".../assets/assets/js/breakpoints.min.js"></script>
-			<script src=".../assets/assets/js/util.js"></script>
-			<script src=".../assets/assets/js/main.js"></script>
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/jquery.dropotron.min.js"></script>
+			<script src="/js/jquery.scrollex.min.js"></script>
+			<script src="/js/browser.min.js"></script>
+			<script src="/js/breakpoints.min.js"></script>
+			<script src="/js/util.js"></script>
+			<script src="/js/main.js"></script>
