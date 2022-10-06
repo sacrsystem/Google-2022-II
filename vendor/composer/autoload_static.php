@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitae213d81e9f80f45b5d9febbdd0c0581
+class ComposerStaticInit9f52ab1589a16e57f9e3d8b9abf4266c
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -39,6 +39,7 @@ class ComposerStaticInitae213d81e9f80f45b5d9febbdd0c0581
             'Google\\Protobuf\\' => 16,
             'Google\\LongRunning\\' => 19,
             'Google\\Cloud\\Vision\\' => 20,
+            'Google\\Cloud\\Translate\\' => 23,
             'Google\\Cloud\\Core\\' => 18,
             'Google\\Auth\\' => 12,
             'Google\\ApiCore\\LongRunning\\' => 27,
@@ -47,6 +48,7 @@ class ComposerStaticInitae213d81e9f80f45b5d9febbdd0c0581
             'GPBMetadata\\Google\\Protobuf\\' => 28,
             'GPBMetadata\\Google\\Longrunning\\' => 31,
             'GPBMetadata\\Google\\Cloud\\Vision\\' => 32,
+            'GPBMetadata\\Google\\Cloud\\Translate\\' => 35,
             'GPBMetadata\\Google\\' => 19,
             'GPBMetadata\\ApiCore\\' => 20,
         ),
@@ -63,7 +65,7 @@ class ComposerStaticInitae213d81e9f80f45b5d9febbdd0c0581
         ),
         'Psr\\Log\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/log/src',
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
         'Psr\\Http\\Message\\' => 
         array (
@@ -114,6 +116,10 @@ class ComposerStaticInitae213d81e9f80f45b5d9febbdd0c0581
         array (
             0 => __DIR__ . '/..' . '/google/cloud-vision/src',
         ),
+        'Google\\Cloud\\Translate\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/cloud-translate/src',
+        ),
         'Google\\Cloud\\Core\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/cloud-core/src',
@@ -146,6 +152,10 @@ class ComposerStaticInitae213d81e9f80f45b5d9febbdd0c0581
         array (
             0 => __DIR__ . '/..' . '/google/cloud-vision/metadata',
         ),
+        'GPBMetadata\\Google\\Cloud\\Translate\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/cloud-translate/metadata',
+        ),
         'GPBMetadata\\Google\\' => 
         array (
             0 => __DIR__ . '/..' . '/google/common-protos/metadata',
@@ -173,9 +183,9 @@ class ComposerStaticInitae213d81e9f80f45b5d9febbdd0c0581
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitae213d81e9f80f45b5d9febbdd0c0581::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitae213d81e9f80f45b5d9febbdd0c0581::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitae213d81e9f80f45b5d9febbdd0c0581::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9f52ab1589a16e57f9e3d8b9abf4266c::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9f52ab1589a16e57f9e3d8b9abf4266c::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit9f52ab1589a16e57f9e3d8b9abf4266c::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -54,6 +54,7 @@ switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
     case '/homeC':
         require 'homeC.php';
         break;
+
     case '/f_agregar_carrito':
         require 'f_agregar_carrito.php';
         break;
@@ -78,6 +79,7 @@ switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
     case '/cerrar':
         require 'cerrar.php';
         break;
+
     default:
         http_response_code(404);
         exit('Not Found');
