@@ -61,15 +61,8 @@ $seleccionArchivos.addEventListener("change", () => {
   // Y a la fuente de la imagen le ponemos el objectURL
   $imagenPrevisualizacion.src = objectURL;
   var imagenes = document.getElementById("seleccionArchivos").files[0].name;
-            $.ajax({
-                    url:'/busqueda',
-                    type:'POST',
-                    data:{lin:objectURL},
-                    success:function(result){
-                    ("#descripcion").load(result);
-                    }
-            });
-  //$("#descripcion").load("/busqueda");
+        
+  ("#descripcion").load("/busqueda");
   /*$.ajax({
     type: "POST",
     url: "/busqueda",
