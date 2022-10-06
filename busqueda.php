@@ -12,15 +12,17 @@ $imageAnnotator = new ImageAnnotatorClient(
         'credentials' => 'key.json'
     ]
 );
-printf($lin);?>
+?>
 <img src="<?php echo $lin?>" alt=""><?php
 $path = $lin;
  $image = file_get_contents($path);
+ echo $imagen;
  //$image= fopen($_FILES['image']['tmp_name'],'r');
  $response = $imageAnnotator->objectLocalization($image);
  $objects = $response->getLocalizedObjectAnnotations();
 
  foreach ($objects as $object) {
+    
 
      $name = $object->getName(); 
      //$score = $object->getScore();
