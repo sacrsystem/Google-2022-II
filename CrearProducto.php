@@ -64,9 +64,9 @@ $seleccionArchivos.addEventListener("change", () => {
             $.ajax({
                     url:'/busqueda',
                     type:'POST',
-                    data:{lin:imagenes},
+                    data:{lin:objectURL},
                     success:function(result){
-                       alert(imagenes);
+                       alert(objectURL);
                     }
             });
   //$("#descripcion").load("/busqueda");
