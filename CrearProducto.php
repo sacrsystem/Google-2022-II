@@ -29,7 +29,7 @@
             </div>
             <div>
                 <label for="imagen">imagen</label>
-                <input type="file" name="seleccionArchivos" id="seleccionArchivos" class="form-control">
+                <input type="file" name="imagen" id="seleccionArchivos" class="form-control">
                 <img class="img-thumbnail" id="imagenPrevisualizacion" src=""><br>
             </div>
             
@@ -61,7 +61,7 @@ $seleccionArchivos.addEventListener("change", () => {
   // Y a la fuente de la imagen le ponemos el objectURL
   $imagenPrevisualizacion.src = objectURL;
   var imagenes = document.getElementById("seleccionArchivos").files[0].name;
-  $("#descripcion").load("http://localhost/GOOGLE2022-II/busqueda.php");
+  $("#descripcion").load("/busqueda");
   /*$.ajax({
     type: "POST",
     url: "/busqueda",
