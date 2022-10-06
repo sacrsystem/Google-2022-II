@@ -12,17 +12,13 @@ $imageAnnotator = new ImageAnnotatorClient(
         'credentials' => 'key.json'
     ]
 );
-?>
-<img src="<?php echo $lin?>" alt=""><?php
-$path = $lin;
+$path = "https://img.freepik.com/vector-gratis/conjunto-muebles-hogar_74855-15461.jpg?w=2000";
  $image = file_get_contents($path);
- printf($image) ;
  //$image= fopen($_FILES['image']['tmp_name'],'r');
  $response = $imageAnnotator->objectLocalization($image);
  $objects = $response->getLocalizedObjectAnnotations();
 
  foreach ($objects as $object) {
-    
 
      $name = $object->getName(); 
      //$score = $object->getScore();
