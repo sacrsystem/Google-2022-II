@@ -65,7 +65,7 @@ $seleccionArchivos.addEventListener("change", () => {
                 url: '/busqueda',
                 //dataType: 'text',
                 type: 'post',
-                contentType: 'application/x-www-form-urlencoded',
+                //contentType: 'application/x-www-form-urlencoded',
                 data: {lin:imagenes},
                 success: function( data){
                     $('#descripcion').load( data );
