@@ -16,7 +16,7 @@ $imageAnnotator = new ImageAnnotatorClient(
 <img src="<?php echo $lin?>" alt=""><?php
 $path = $lin;
  $image = file_get_contents($path);
- printf($imagen) ;
+ printf($image) ;
  //$image= fopen($_FILES['image']['tmp_name'],'r');
  $response = $imageAnnotator->objectLocalization($image);
  $objects = $response->getLocalizedObjectAnnotations();
