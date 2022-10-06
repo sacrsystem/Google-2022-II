@@ -12,7 +12,8 @@ $imageAnnotator = new ImageAnnotatorClient(
         'credentials' => 'key.json'
     ]
 );
-printf($lin);
+printf($lin);?>
+<img src="<?php echo $lin?>" alt=""><?php
 $path = $lin;
  $image = file_get_contents($path);
  //$image= fopen($_FILES['image']['tmp_name'],'r');
