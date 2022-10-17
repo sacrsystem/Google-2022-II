@@ -34,7 +34,8 @@ $data = json_decode(file_get_contents($stringApi),true);
                                     <p class="card-text">S/. <?php echo $items['Precio'];?></p>
                                     <p class="card-text">Unidades en Stock: <?php echo $items['Stock'];?></p>
                                     <a href="/f_agregar_carrito?idProducto='<?php echo $idProducto;?>'" class="btn btn-primary">aAgregar a carrito</a>
-                                    <a href="/f_eliminar_producto?idProducto=<?php echo $idProducto;?>" class="btn btn-primary">Ver mas</a>
+                                    <iframe src="https://deploy01.azurewebsites.net/" frameborder="0"></iframe>
+                                    <a href="" class="btn btn-primary">Ver mas</a>
                                   </div>
                                 </div>
                               </div>
