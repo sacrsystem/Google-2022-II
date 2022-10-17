@@ -21,7 +21,7 @@ $data = json_decode(file_get_contents($url),true);
             <th scope="col">DESCRIPCION</th>
             <th scope="col">COSTO</th>
             <th scope="col">CANTIDAD</th>
-            <th> scope="col"TOTAL</th>
+            <th scope="col"> scope="col"TOTAL</th>
 </tr>
 
 
