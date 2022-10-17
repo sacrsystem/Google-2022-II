@@ -6,8 +6,9 @@ $usuario = "'".$_POST['usuario']."'";
 $url = "https://restaurantesofi.000webhostapp.com/serviciosMuebles/registrarUsuario.php?correo=".$correo."&password=".$contrasena."&usuario=".$usuario;
 $resultado = file_get_contents($url);
 
+header("Location: /LoginUsuario");
 
-    if($usuario == "'cliente'")
+    /*if($usuario == "'cliente'")
     {
         header("Location: /LoginUsuario");
         die();
@@ -17,7 +18,7 @@ $resultado = file_get_contents($url);
         header("Location: /LoginUsuario");
         die();
     }
-
+*/
 session_start();
 $_SESSION["usuario"] = $correo;
 //$_SESSION["idUsuario"] = $correo;
