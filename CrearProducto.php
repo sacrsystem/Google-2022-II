@@ -28,6 +28,10 @@
                 <input type="text" name="stock" id="stock" class="form-control">
             </div>
             <div>
+                <label for="stock">Producto 3D</label>
+                <input type="text" name="tresd" id="tresd" class="form-control">
+            </div>
+            <div>
                 <label for="imagen">imagen</label>
                 <input type="file" name="imagen" id="seleccionArchivos" class="form-control">
                 <img class="img-thumbnail" id="imagenPrevisualizacion" src=""><br>
