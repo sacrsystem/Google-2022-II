@@ -35,7 +35,7 @@ $data = json_decode(file_get_contents($stringApi),true);
                                     <p class="card-text">Unidades en Stock: <?php echo $items['Stock'];?></p>
                                     <a href="/f_agregar_carrito?idProducto='<?php echo $idProducto;?>'" class="btn btn-primary">aAgregar a carrito</a>
                                     
-                                    <a href="<?php echo $tresd;?>" target="_blank" class="btn btn-primary">Ver mas</a>
+                                    <a href="<?php echo $items['tresd'];?>" target="_blank" class="btn btn-primary">Ver mas</a>
                                   </div>
                                 </div>
                               </div>
