@@ -8,7 +8,7 @@ $imagen =  "'".str_replace(" ","",$_POST['producto']).".".basename( $_FILES['ima
 $target_path = "imagen/";
 $target_path = $target_path.str_replace(" ","",$_POST['producto']).".".basename( $_FILES['imagen']['type']).".".basename( $_FILES['imagen']['type']);
 $url = "https://restaurantesofi.000webhostapp.com/serviciosMuebles/agregarProducto.php?producto=".$producto."&descripcion=".$descripcion."&precio=".$precio."&stock=".$stock."&imagen=".$imagen;
-$resultado = file_get_contents($url,false);
+$resultado = file_get_contents($url,true);
 
 if(move_uploaded_file($_FILES['imagen']['tmp_name'], $target_path)) {
     // echo "El archivo ".  basename( $_FILES['imagen']['name']). 
