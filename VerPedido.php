@@ -7,14 +7,14 @@ $data = json_decode(file_get_contents($url),true);
 ?>
 
     <div
-      class="position-absolute top-50 start-50">
+      class="">
      
 
       <div class="text-center fs-1 fw-bold">Ver de Pedidos</div>
       <div class="input-group mt-1">
        <div> 
 
-       <table class="table table-striped position-absolute top-10 start-10">
+       <table class="table table-striped position-absolute top-60 start-60">
         <tr>
             <th scope="col">ID</th>
             <th scope="col">NOMBRE</th>
