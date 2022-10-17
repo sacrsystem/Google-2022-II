@@ -7,7 +7,7 @@ $data = json_decode(file_get_contents($url),true);
 ?>
 
     <div
-      class="bg-secondary.bg-gradient p-5 rounded-5 text-secondary shadow" style="width: 90rem">
+      class="">
      
 
       <div class="text-center fs-1 fw-bold">Ver de Pedidos</div>
@@ -16,12 +16,12 @@ $data = json_decode(file_get_contents($url),true);
 
        <table class="table table-success table-striped table-bordered">
         <tr>
-            <th>ID</th>
-            <th>NOMBRE</th>
-            <th>DESCRIPCION</th>
-            <th>COSTO</th>
-            <th>CANTIDAD</th>
-            <th>TOTAL</th>
+            <th scope="col">ID</th>
+            <th scope="col">NOMBRE</th>
+            <th scope="col">DESCRIPCION</th>
+            <th scope="col">COSTO</th>
+            <th scope="col">CANTIDAD</th>
+            <th scope="col">TOTAL</th>
 </tr>
 
 
