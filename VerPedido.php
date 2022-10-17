@@ -14,7 +14,7 @@ $data = json_decode(file_get_contents($url),true);
       <div class="input-group mt-1">
        <div> 
 
-       <table class="table table-striped position-absolute top-50 start-100">
+       <table class="table table-striped position-absolute top-10 start-10">
         <tr>
             <th scope="col">ID</th>
             <th scope="col">NOMBRE</th>
