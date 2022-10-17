@@ -7,7 +7,7 @@ $data = json_decode(file_get_contents($url),true);
 ?>
 
     <div
-      class="">
+      class="position-absolute top-50 start-50">
      
 
       <div class="text-center fs-1 fw-bold">Ver de Pedidos</div>
