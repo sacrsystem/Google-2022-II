@@ -16,14 +16,14 @@
       </div>
     </div>
     <div class="carousel-item">
-	<img src="./imgindex/mueble1.webp" class="d-block w-100" alt="...">
+	<img src="./images/6.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5 class="fs-1">MuEbLeS Mi CaSa</h5>
         <p class="fs-2">A algunas personas les gusta el arte en todo, así que este es el mejor eslogan para estas personas.</p>
       </div>
     </div>
     <div class="carousel-item">
-	<img src="./imgindex/mueble2.webp" class="d-block w-100" alt="...">
+	<img src="./images/6.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5 class="fs-1">MuEbLeS Mi CaSa</h5>
         <p class="fs-2">También es bueno ya que a todas las personas les gusta lo mejor a un precio asequible</p>
