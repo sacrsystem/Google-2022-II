@@ -66,7 +66,7 @@ $seleccionArchivos.addEventListener("change", () => {
   $imagenPrevisualizacion.src = objectURL;
   var imagenes = document.getElementById("seleccionArchivos").files[0].name;
   alert(imagenes);
-  $("#descripcion").load("/busqueda?imagen="+imagenes);
+  $("#descripcion").load("/busqueda?imagenes="+imagenes);
  
   
   
