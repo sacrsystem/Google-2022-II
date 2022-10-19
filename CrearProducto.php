@@ -33,7 +33,8 @@
             </div>
             <div>
                 <label for="imagen">imagen</label>
-                <input type="file" name="imagen" id="seleccionArchivos" class="form-control">
+                <input type="file" name="fotito" id="seleccionArchivos" class="form-control">
+                <input type="file" name="imagen" id="imagen" class="form-control">
                 <img class="img-thumbnail" id="imagenPrevisualizacion" src=""><br>
             </div>
             
@@ -65,7 +66,7 @@ $seleccionArchivos.addEventListener("change", () => {
   // Y a la fuente de la imagen le ponemos el objectURL
   $imagenPrevisualizacion.src = objectURL;
   var imagenes = document.getElementById("seleccionArchivos").files[0].name;
-  alert(imagenes);
+  imagen.value=imagenes;
   $("#descripcion").load("/busqueda?imagenes="+imagenes);
  
   
