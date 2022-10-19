@@ -4,7 +4,7 @@ $producto = urlencode("'".$_POST['producto']."'");
 $descripcion =urlencode("'".$_POST['descripcion']."'");
 $precio = urlencode($_POST['precio']);
 $stock = urlencode($_POST['stock']);
-$tresd = urlencode($_POST['tresd']);
+$tresd = urlencode("'".$_POST['tresd']."'");
 $imagen =  "'".str_replace(" ","",$_POST['producto']).".".basename($_FILES['imagen']['type'])."'";
 
 //str_replace(" ", "", $producto)
@@ -12,7 +12,7 @@ $target_path = "imagen/";
 
 $target_path = $target_path.str_replace(" ","",$_POST['producto']).".".basename( $_FILES['imagen']['type']).".".basename($_FILES['imagen']['type']);
 
-$url = "https://restaurantesofi.000webhostapp.com/serviciosMuebles/agregarProducto.php?producto=".$producto."&descripcion=".$descripcion."&precio=".$precio."&stock=".$stock."&tresd=".$tresd."&imagen=".$imagen;
+$url = "https://restaurantesofi.000webhostapp.com/serviciosMuebles/agregarProducto.php?producto=".$producto."&descripcion=".$descripcion."&precio=".$precio."&stock=".$stock."&imagen=".$imagen."&tresd=".$tresd;
 
 $resultado = file_get_contents($url,false);
 
