@@ -5,7 +5,7 @@ $descripcion =urlencode("'".$_POST['descripcion']."'");
 $precio = urlencode($_POST['precio']);
 $stock = urlencode($_POST['stock']);
 $tresd = urlencode("'".$_POST['tresd']."'");
-$imagen =  "'".str_replace(" ","",$_POST['imagen']).".".basename($_FILES['imagen']['type'])."'";
+$imagen =  urlencode("'".$_POST['imagen']."'");
 
 //str_replace(" ", "", $producto)
 $target_path = "imagen/";
