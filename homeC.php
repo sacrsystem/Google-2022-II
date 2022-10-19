@@ -70,7 +70,6 @@
     <img src="./images/5.jpg" class="w-50" alt="...">
   </div>
   <div class="col-md-6 position-static p-4 pl-md-10 text-start">
-    <h5 class="fs-0 display-4 fst-italic">Muebles mi casa</h5>
     <h5 class="mt-0 h0 text-center display-4 fst-italic">Visión</h5>
     <p class="display-10">Mantener el liderazgo del mercado de muebles, mediante productos y servicios de alta calidad, personal competente y tecnología de vanguardia, para agregar valor a nuestros clientes, proveedores, empleados y accionistas.</p>
   </div>
