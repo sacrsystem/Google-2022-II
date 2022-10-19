@@ -18,7 +18,7 @@ $data = json_decode(file_get_contents($url),true);
 <br>
 <br>
 <body>
-    <div class="text-center fs-1 fw-bold">Ver de Pedidos</div>
+    <div class="text-center fs-1 fw-bold">VER MI PEDIDOS</div>
     <br>
     <br>
     <div class="container">
