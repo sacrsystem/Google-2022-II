@@ -4,7 +4,7 @@ $producto = urlencode("'".$_POST['producto']."'");
 $descripcion =urlencode("'".$_POST['descripcion']."'");
 $precio = urlencode("'".$_POST['precio']."'");
 $stock = urlencode("'".$_POST['stock']."'");
-//$imagen =  urlencode("'".str_replace(" ","",$_POST['producto']).".".basename( $_FILES['imagen']['type'])."'");
+$imagen =  urlencode("'".str_replace(" ","",$_POST['producto']).".".basename( $_FILES['imagen']['type'])."'");
 //str_replace(" ", "", $producto)
 $target_path = "imagen/";
 $target_path = $target_path.$_POST['producto'].".".basename( $_FILES['imagen']['type']);
@@ -14,11 +14,7 @@ $url = "https://restaurantesofi.000webhostapp.com/serviciosMuebles/editarProduct
 $resultado = file_get_contents($url);
 
 
-if($resultado == "1"){
-    header("Location: /CatalogoA");
-    die();
-}
-
+header("Location: /CatalogoA");
 if(move_uploaded_file($_FILES['imagen']['tmp_name'], $target_path)) {
    // echo "El archivo ".  basename( $_FILES['imagen']['name']). 
    // " ha sido subido";
