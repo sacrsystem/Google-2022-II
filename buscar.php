@@ -12,7 +12,7 @@
     <input type="file" Accept="" id="seleccionArchivos" name="image" accept="image/*" class="form-control">
     <img class="img-thumbnail" id="imagenPrevisualizacion" src=""><br>
 
-    <button Type="submit" class="btn-success">buscar</button>
+    
     </form>
     </div>
     
@@ -22,7 +22,7 @@
     <div class="row">
       <div class="col-md-6">
 	<p>
-		reconocimiento con Imagen
+		
 	</p>
 	<h1>Selecciona un dispositivo</h1>
 	<div>
