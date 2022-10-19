@@ -15,8 +15,12 @@ $data = json_decode(file_get_contents($url),true);
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
 </head>
-
+<br>
+<br>
 <body>
+    <div class="text-center fs-1 fw-bold">Ver de Pedidos</div>
+    <br>
+    <br>
     <div class="container">
         <div class="row"></div>
         <table class="table table-success table-striped table-bordered">
