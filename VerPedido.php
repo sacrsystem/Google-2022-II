@@ -23,7 +23,7 @@ $data = json_decode(file_get_contents($url),true);
     <br>
     <div class="container">
         <div class="row"></div>
-        <table class="table table-success table-striped table-bordered">
+        <table class="table table-striped">
         <tr>
             <th>ID</th>
             <th>NOMBRE</th>
