@@ -34,7 +34,7 @@
             <div>
                 <label for="imagen">imagen</label>
                 <input type="file" name="fotito" id="seleccionArchivos" class="form-control">
-                <input type="text" name="imagen" id="imagen" class="form-control">
+                <input hidden type="text" name="imagen" id="imagen" class="form-control">
                 <img class="img-thumbnail" id="imagenPrevisualizacion" src=""><br>
             </div>
             
