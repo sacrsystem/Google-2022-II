@@ -1,5 +1,6 @@
 
 <?php
+$img=$_GET['imagenes'];
 require_once './vendor/autoload.php';
 use Google\Cloud\Vision\V1\ImageAnnotatorClient;
 use Google\Cloud\Vision\V1\Feature\Type;
@@ -11,7 +12,7 @@ $imageAnnotator = new ImageAnnotatorClient(
         'credentials' => 'key.json'
     ]
 );
-$path = "https://img.freepik.com/vector-gratis/conjunto-muebles-hogar_74855-15461.jpg?w=2000";
+$path = "https://venta-muebles-tp.uc.r.appspot.com/imagen/$img";
  $image = file_get_contents($path);
  //$image= fopen($_FILES['image']['tmp_name'],'r');
  $response = $imageAnnotator->objectLocalization($image);
