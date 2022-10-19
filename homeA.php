@@ -48,14 +48,7 @@
 </div>
 </div>
 
-<div class="rounded mx-auto d-block" style="max-width: 100px;">
-    <div class="col-md-12">
-      <div class="card-body">
-        <h5 class="card-title display-1">Muebles Mi Casa</h5>
-        <p class="card-text">las tendencias desaparecen el estilo es eterno.</p>
-      </div>
-  </div>
-</div>
+
 <br>
 
 <div class="row no-gutters bg-light position-relative">

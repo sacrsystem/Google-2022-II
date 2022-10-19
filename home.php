@@ -11,21 +11,21 @@
     <div class="carousel-item active">
 	  <img src="./images/6.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5 class="fs-1">MuEbLeS Mi CaSa</h5>
+        <h5 class="fs-1">Muebles mi casa</h5>
         <p class="fs-2">La elección es la mejor que te hace elegante y el aspecto de tu hogar elegante, es un buen eslogan.</p>
       </div>
     </div>
     <div class="carousel-item">
 	<img src="./images/6.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5 class="fs-1">MuEbLeS Mi CaSa</h5>
+        <h5 class="fs-1">Muebles mi casa</h5>
         <p class="fs-2">A algunas personas les gusta el arte en todo, así que este es el mejor eslogan para estas personas.</p>
       </div>
     </div>
     <div class="carousel-item">
 	<img src="./images/6.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5 class="fs-1">MuEbLeS Mi CaSa</h5>
+        <h5 class="fs-1">Muebles mi casa</h5>
         <p class="fs-2">También es bueno ya que a todas las personas les gusta lo mejor a un precio asequible</p>
       </div>
     </div>
@@ -48,14 +48,7 @@
 </div>
 </div>
 
-<div class="rounded mx-auto d-block" style="max-width: 100px;">
-    <div class="col-md-50">
-      <div class="card-body">
-        <h5 class="card-title display-1">Muebles Mi Casa</h5>
-        <p class="card-text">las tendencias desaparecen el estilo es eterno.</p>
-      </div>
-  </div>
-</div>
+
 <br>
 
 <div class="row no-gutters bg-light position-relative">
