@@ -53,7 +53,7 @@
 
 <div class="row no-gutters bg-light position-relative">
   <div class="col-md-6 position-static p-4 text-end">
-    <h5 class="mt-0 h0 display-4 fst-italic">MISIÓN</h5>
+    <h5 class="mt-0 h0 display-4 fst-italic">Misión</h5>
     <p class="display-10">Venta de muebles nuevos y viejos para satisfacer los gustos y requerimientos de los clientes.</p>
     
   </div>
@@ -70,7 +70,7 @@
     <img src="./images/5.jpg" class="w-50" alt="...">
   </div>
   <div class="col-md-6 position-static p-4 pl-md-10 text-start">
-    <h5 class="mt-0 h0 text-center display-4 fst-italic">VISIÓN</h5>
+    <h5 class="mt-0 h0 text-center display-4 fst-italic">Visión</h5>
     <p class="display-10">Some representative placeholder content for the third slide.</p>
   </div>
 </div>
