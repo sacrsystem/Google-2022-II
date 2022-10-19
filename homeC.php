@@ -54,7 +54,7 @@
 <div class="row no-gutters bg-light position-relative">
   <div class="col-md-6 position-static p-4 text-end">
     <h5 class="mt-0 h0 display-4 fst-italic">Misión</h5>
-    <p class="display-10">Venta de muebles nuevos y viejos para satisfacer los gustos y requerimientos de los clientes.</p>
+    <p class="display-10">Ofrecer a los clientes, productos y servicios en muebles de calidad y gran variedad, precios competitivos, entrega puntual y servicios post-venta, apoyados en una excelente plataforma humana y tecnológica permitiendo ver a nuestros clientes los proyectos en 3d, garantizando la satisfacción del cliente.</p>
     
   </div>
   <div class="col-md-6 mb-md-0 p-md-4 pl-md-5 text-start">
@@ -72,13 +72,13 @@
   <div class="col-md-6 position-static p-4 pl-md-10 text-start">
     <h5 class="fs-0 display-4 fst-italic">Muebles mi casa</h5>
     <h5 class="mt-0 h0 text-center display-4 fst-italic">Visión</h5>
-    <p class="display-10">Some representative placeholder content for the third slide.</p>
+    <p class="display-10">Mantener el liderazgo del mercado de muebles, mediante productos y servicios de alta calidad, personal competente y tecnología de vanguardia, para agregar valor a nuestros clientes, proveedores, empleados y accionistas.</p>
   </div>
 </div>
 
 <br>
 <div class="row no-gutters bg-light position-relative">
-<p class="display-5 text-center display-4 fst-italic">SOBRE NOSOTROS</p>
+<p class="text-center display-4 fst-italic">Sobre nosotros</p>
 <div class="row row-cols-1 row-cols-md-3 g-5">
   <div class="bg-light">
     <div class="bg-light text-center">
