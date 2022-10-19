@@ -6,7 +6,7 @@ use Google\Cloud\Vision\V1\ImageAnnotatorClient;
 use Google\Cloud\Vision\V1\Feature\Type;
 use Google\Cloud\Vision\V1\Likelihood;
 
-$count=0;
+
 $imageAnnotator = new ImageAnnotatorClient(
     [
         'credentials' => 'key.json'
@@ -23,7 +23,7 @@ $path = "https://venta-muebles-tp.uc.r.appspot.com/imagen/$img";
      $name = $object->getName(); 
      //$score = $object->getScore();
      $vertices = $object->getBoundingPoly()->getNormalizedVertices();
-     echo $count++;
+     
      printf($name);
     
     print(PHP_EOL);}?>
