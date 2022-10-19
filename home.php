@@ -77,7 +77,7 @@
 
 <br>
 <div class="row no-gutters bg-light position-relative">
-<p class="display-5 text-center display-4 fst-italic">SOBRE NOSOTROS</p>
+<p class="display-5 text-center">SOBRE NOSOTROS</p>
 <div class="row row-cols-1 row-cols-md-3 g-5">
   <div class="bg-light">
     <div class="bg-light text-center">
@@ -95,7 +95,7 @@
 	<img src="./imgindex/mueble2.jpg" class="rounded-circle w-50" alt="...">
   <br><br>
       <div class="card-body">
-        <h5 class="h20 text-center display-4 fst-italic">CALIDAD Y GARANTÍA</h5>
+        <h5 class="h20 text-center">CALIDAD Y GARANTÍA</h5>
         <p class="card-text">Todos nuestros productos pasan por un riguroso control de calidad, trabajamos con los mejores materiales del mercado nacional e internacional, todos nuestros muebles cuentan con garantía de fábrica.</p>
       </div>
     </div>
@@ -105,7 +105,7 @@
 	<img src="./imgindex/cliente.png" class="rounded-circle w-50" alt="...">
   <br><br><br>
       <div class="card-body">
-        <h5 class="h20 text-center display-4 fst-italic">ATENCIÓN AL CLIENTE</h5>
+        <h5 class="h20 text-center">ATENCIÓN AL CLIENTE</h5>
         <p class="card-text">Brindamos atención personalizada e información de todos nuestros productos.</p>
       </div>
     </div>

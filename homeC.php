@@ -11,21 +11,21 @@
     <div class="carousel-item active">
 	  <img src="./images/6.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5 class="fs-1">Muebles mi casa</h5>
+        <h5 class="fs-0 display-4 fst-italic">Muebles mi casa</h5>
         <p class="fs-2">La elección es la mejor que te hace elegante y el aspecto de tu hogar elegante, es un buen eslogan.</p>
       </div>
     </div>
     <div class="carousel-item">
 	<img src="./images/6.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5 class="fs-1">Muebles mi casa</h5>
+        <h5 class="fs-0 display-4 fst-italic">Muebles mi casa</h5>
         <p class="fs-2">A algunas personas les gusta el arte en todo, así que este es el mejor eslogan para estas personas.</p>
       </div>
     </div>
     <div class="carousel-item">
 	<img src="./images/6.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5 class="fs-1">Muebles mi casa</h5>
+        <h5 class="fs-0 display-4 fst-italic">Muebles mi casa</h5>
         <p class="fs-2">También es bueno ya que a todas las personas les gusta lo mejor a un precio asequible</p>
       </div>
     </div>
@@ -53,7 +53,7 @@
 
 <div class="row no-gutters bg-light position-relative">
   <div class="col-md-6 position-static p-4 text-end">
-    <h5 class="mt-0 h1">MISIÓN</h5>
+    <h5 class="mt-0 h0 display-4 fst-italic">MISIÓN</h5>
     <p class="display-10">Venta de muebles nuevos y viejos para satisfacer los gustos y requerimientos de los clientes.</p>
     
   </div>
@@ -70,14 +70,14 @@
     <img src="./images/5.jpg" class="w-50" alt="...">
   </div>
   <div class="col-md-6 position-static p-4 pl-md-10 text-start">
-    <h5 class="mt-0 h1 text-center">VISIÓN</h5>
+    <h5 class="mt-0 h0 text-center display-4 fst-italic">VISIÓN</h5>
     <p class="display-10">Some representative placeholder content for the third slide.</p>
   </div>
 </div>
 
 <br>
 <div class="row no-gutters bg-light position-relative">
-<p class="display-5 text-center">SOBRE NOSOTROS</p>
+<p class="display-5 text-center display-4 fst-italic">SOBRE NOSOTROS</p>
 <div class="row row-cols-1 row-cols-md-3 g-5">
   <div class="bg-light">
     <div class="bg-light text-center">

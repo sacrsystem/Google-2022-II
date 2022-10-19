@@ -84,7 +84,7 @@
 	<img src="./imgindex/mueble1.jpg" class="rounded-circle w-50" alt="...">
   <br><br>
       <div class="card-body">
-        <h5 class="h20 text-center display-4 fst-italic">NUESTRA FÁBRICA</h5>
+        <h5 class="h20 text-center">NUESTRA FÁBRICA</h5>
         <p class="card-text">Contamos con varias líneas de producción y maquinaria italiana con tecnología de punta, instalada en un área de 12000 m2, lo que nos permite ofrecer una gran variedad de productos con finos acabados en las líneas de mueble para el hogar, hoteles y restaurantes.</p>
       <br>
       </div>
@@ -95,7 +95,7 @@
 	<img src="./imgindex/mueble2.jpg" class="rounded-circle w-50" alt="...">
   <br><br>
       <div class="card-body">
-        <h5 class="h20 text-center display-4 fst-italic">CALIDAD Y GARANTÍA</h5>
+        <h5 class="h20 text-center">CALIDAD Y GARANTÍA</h5>
         <p class="card-text">Todos nuestros productos pasan por un riguroso control de calidad, trabajamos con los mejores materiales del mercado nacional e internacional, todos nuestros muebles cuentan con garantía de fábrica.</p>
       </div>
     </div>
@@ -105,7 +105,7 @@
 	<img src="./imgindex/cliente.png" class="rounded-circle w-50" alt="...">
   <br><br><br>
       <div class="card-body">
-        <h5 class="h20 text-center display-4 fst-italic">ATENCIÓN AL CLIENTE</h5>
+        <h5 class="h20 text-center">ATENCIÓN AL CLIENTE</h5>
         <p class="card-text">Brindamos atención personalizada e información de todos nuestros productos.</p>
       </div>
     </div>
