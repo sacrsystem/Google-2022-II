@@ -116,9 +116,6 @@
 <br>
 
 
-
-
-
 <div class="row no-gutters bg-dark position-relative">
 <div class="col-md-10 position-static p-10 ">
     
@@ -126,8 +123,6 @@
   <div class="col-md-6 mb-md-0 p-md-4 pl-md-10">
 	<p></p><br>
 	<p></p><br>
-	<p></p><br>
-	
 	<p></p>
   </div>
   
