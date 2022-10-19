@@ -12,6 +12,7 @@ $data = json_decode(file_get_contents($stringApi),true);
     
         <div class="container">
         <div class="text-center fs-1 fw-bold">CATALOGO</div>
+        <br>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <?php
                     foreach ( $data as $items ) {
@@ -26,13 +27,7 @@ $data = json_decode(file_get_contents($stringApi),true);
                         <p class="card-text"><?php echo $items['Descripcion'];?></p>
                         <p class="card-text"><?php echo $items['Precio'];?></p>
                         <p class="card-text"><?php echo $items['Stock'];?></p>
-                        <div class="d-flex justify-content-between align-items-center">
-                          <div class="btn-group">
-                            <a href="#" class="btn btn-primary">Detalles</a>
-                          </div>
-                            <a href="#" class="btn btn-success">Agregar</a>
-                        </div>
-                        </div>   
+                          
                     </div>
                 </div>
                 <?php
