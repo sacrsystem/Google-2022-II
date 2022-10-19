@@ -27,7 +27,13 @@ $data = json_decode(file_get_contents($stringApi),true);
                         <p class="card-text"><?php echo $items['Descripcion'];?></p>
                         <p class="card-text"><?php echo $items['Precio'];?></p>
                         <p class="card-text"><?php echo $items['Stock'];?></p>
-                          
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            
+                          </div>
+                           
+                        </div>
+                        </div>   
                     </div>
                 </div>
                 <?php
