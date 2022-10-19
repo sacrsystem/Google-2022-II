@@ -36,9 +36,7 @@ if(isset($_REQUEST['usuario'])){
         <li class="nav-item dropdown">
           <a class="nav-link text-white" href="/CatalogoA">CATALOGO</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link text-white" href="Buscar">BUSCAR</a>
-        </li>
+        
         <li class="nav-item dropdown">
           <a class="nav-link text-white"><?php echo $usuario; ?></a>
         </li>
