@@ -7,57 +7,53 @@ $data = json_decode(file_get_contents($stringApi),true);
 
 ?>
 
-    <div class="bg-secondary.bg-gradient p-5 rounded-5 text-secondary shadow mt-1" style="width: 90rem">
-      <div class="text-center fs-1 fw-bold">Productos Similares</div>
-      <div class="input-group mt-1">
-       <div> 
-       <div>
-
-           <div class="tab-pane fade show" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab" tabindex="0">
-                    <div class="row gy-3">
-
-
-                    <?php
+<link href="/estilos.css" rel="stylesheet">
+    <!--Contenido-->
+    <main>
+    
+        <div class="container">
+        <div class="text-center fs-1 fw-bold">productos similares</div>
+        <br>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <?php
                     foreach ( $data as $items ) {
                       $idProducto = $items['idProducto'];   
                     ?>
+                <div class="col">
+                    <div class="card shadow-sm">
 
-                        <div class="col-lg-3 col-sm-5">
-                            <div class="menu-item bg-white shadow-on-hover">
-                            <div class="col">
-                                <div class="card h-100">
-                                  <img src="imagen/<?php echo $items['Imagen']; ?>" class="card-img-top" alt="...">
-                                  <div class="card-body">
-                                  <h5 class="card-title" ><?php echo $items['Producto']; ?></h5>
-
-                                    <p class="card-text"><?php echo $items['Descripcion'];?></p>
-                                    <p class="card-text"><?php echo $items['Precio'];?></p>
-                                    <p class="card-text"><?php echo $items['Stock'];?></p>
-                                    <a href="#" class="btn btn-primary">Carrito</a>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                    <img src="imagen/<?php echo $items['Imagen']; ?>" class="card-img-top" alt="..." width = "100px">
+                        <div class="card-body">
+                        <h5 class="card-title" ><?php echo $items['Producto']; ?></h5>
+                          <p class="card-text"><?php echo $items['Descripcion'];?></p>
+                          <p class="card-text">S/. <?php echo $items['Precio'];?></p>
+                          <p class="card-text">Unidades en Stock: <?php echo $items['Stock'];?></p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                          <a href="/f_agregar_carrito?idProducto='<?php echo $idProducto;?>'" class="btn btn-primary">Agregar a carrito</a>
+                          </div>
+                          <a href="<?php echo $items['tresd'];?>" target="_blank" class="btn btn-primary">Ver mas</a>
                         </div>
-
-                    <?php
+                        </div>   
+                    </div>
+                </div>
+                <?php
                       }
                     ?>
-
-                   
-
-                    </div>
-                  </div>
             </div>
+        </div>
+        
+        
 
-      </div>
-      </div>
-    </div>
-    </div>
-  </div>
+    </main>
 
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+    <!--
+        Marko Robles
+        Códigos de Programación
+        2021
+    -->
 
-
-
-   
+    <html lang="es">
