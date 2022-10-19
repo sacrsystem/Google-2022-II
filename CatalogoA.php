@@ -75,12 +75,14 @@ $data = json_decode(file_get_contents($stringApi),true);
                           <p class="card-text"><?php echo $items['Descripcion'];?></p>
                           <p class="card-text"><?php echo $items['Precio'];?></p>
                           <p class="card-text"><?php echo $items['Stock'];?></p>
-                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="d-flex justify-content-between align-items-center">
                           <div class="btn-group">
                           <a href="/EditarProducto?idProducto='<?php echo $idProducto;?>'" class="btn btn-primary">Editar</a>
                           <a href="/f_eliminar_producto?idProducto=<?php echo $idProducto;?>" class="btn btn-primary">Eliminar</a>
-                          
-                        </div>   
+                          </div>
+                           
+                        </div>
+                        </div>    
                     </div>
                 </div>
                 <?php
@@ -88,6 +90,8 @@ $data = json_decode(file_get_contents($stringApi),true);
                     ?>
             </div>
         </div>
+        
+        
         
 
     </main>
