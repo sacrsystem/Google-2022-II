@@ -5,16 +5,14 @@ $url = "https://restaurantesofi.000webhostapp.com/serviciosMuebles/listaProducto
 $data = json_decode(file_get_contents($url),true);
 ?>
 
-    
-<?php 
-foreach( $data as $d ){
-?>
-
-  <form action="/f_editar_producto" method="POST"  enctype="multipart/form-data">
-    <div class="d-grid gap-3 col-4 mx-auto">
     <div class="bg-secondary.bg-gradient p-5 rounded-5 text-secondary shadow" style="width: 35rem">
       <div class="text-center fs-1 fw-bold">Editar Producto</div>
       <div class="input-group mt-1">
+       <div> 
+<?php 
+foreach( $data as $d ){
+?>
+  <form action="/f_editar_producto" method="POST"  enctype="multipart/form-data">
             <input type="hidden" name="idProducto" id="idProducto" class="form-control" value = "<?php echo $idProducto;?>">
 
             <div>
@@ -44,9 +42,6 @@ foreach( $data as $d ){
             <div>
                 <input type ="submit" class="btn btn-warning" value = "Actualizar"/>
             </div>
-
-        </div>
-    </div>
 </form>
 
 
