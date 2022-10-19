@@ -11,21 +11,21 @@
     <div class="carousel-item active">
 	  <img src="./images/6.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5 class="fs-1">MuEbLeS Mi CaSa</h5>
+        <h5 class="fs-1">Muebles mi casa</h5>
         <p class="fs-2">La elección es la mejor que te hace elegante y el aspecto de tu hogar elegante, es un buen eslogan.</p>
       </div>
     </div>
     <div class="carousel-item">
 	<img src="./images/6.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5 class="fs-1">MuEbLeS Mi CaSa</h5>
+        <h5 class="fs-1">Muebles mi casa</h5>
         <p class="fs-2">A algunas personas les gusta el arte en todo, así que este es el mejor eslogan para estas personas.</p>
       </div>
     </div>
     <div class="carousel-item">
 	<img src="./images/6.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5 class="fs-1">MuEbLeS Mi CaSa</h5>
+        <h5 class="fs-1">Muebles mi casa</h5>
         <p class="fs-2">También es bueno ya que a todas las personas les gusta lo mejor a un precio asequible</p>
       </div>
     </div>
