@@ -77,70 +77,41 @@
 
 <br>
 <div class="row no-gutters bg-light position-relative">
-<p class="display-5 text-center">GRUPO GOOGLE</p>
+<p class="display-5 text-center">SOBRE NOSOTROS</p>
 <div class="row row-cols-1 row-cols-md-3 g-5">
   <div class="bg-light">
     <div class="bg-light text-center">
-	<img src="./imgindex/con1.png" class="rounded-circle w-50" alt="...">
+	<img src="./imgindex/mueble1.jpg" class="rounded-circle w-50" alt="...">
+  <br><br>
       <div class="card-body">
-        <h5 class="h20 text-center">Lider</h5>
-        <p class="card-text">CARRASCO ROSALES SAMUEL ALONSO</p>
+        <h5 class="h20 text-center">NUESTRA FÁBRICA</h5>
+        <p class="card-text">Contamos con varias líneas de producción y maquinaria italiana con tecnología de punta, instalada en un área de 12000 m2, lo que nos permite ofrecer una gran variedad de productos con finos acabados en las líneas de mueble para el hogar, hoteles y restaurantes.</p>
+      <br>
       </div>
     </div>
   </div>
   <div class="">
     <div class="bg-light text-center">
-	<img src="./imgindex/con2.png" class="rounded-circle w-50" alt="...">
+	<img src="./imgindex/mueble2.jpg" class="rounded-circle w-50" alt="...">
+  <br><br>
       <div class="card-body">
-        <h5 class="h20 text-center">Google QA</h5>
-        <p class="card-text">BERROCAL GAMARRA ALEX LEONARDO</p>
+        <h5 class="h20 text-center">CALIDAD Y GARANTÍA</h5>
+        <p class="card-text">Todos nuestros productos pasan por un riguroso control de calidad, trabajamos con los mejores materiales del mercado nacional e internacional, todos nuestros muebles cuentan con garantía de fábrica.</p>
       </div>
     </div>
   </div>
   <div class="text-start">
     <div class="bg-light text-center">
-	<img src="./imgindex/con3.png" class="rounded-circle w-50" alt="...">
+	<img src="./imgindex/cliente.png" class="rounded-circle w-50" alt="...">
+  <br><br><br>
       <div class="card-body">
-        <h5 class="h20 text-center">GoogleFull Stack  Cloud Rec. Facial</h5>
-        <p class="card-text">SUPO PUMA JAIME URIBE</p>
+        <h5 class="h20 text-center">ATENCIÓN AL CLIENTE</h5>
+        <p class="card-text">Brindamos atención personalizada e información de todos nuestros productos.</p>
       </div>
     </div>
   </div>
 </div>
 <br>
-<br>
-<br>
-<div class="row no-gutters bg-light position-relative">
-<div class="row row-cols-1 row-cols-md-3 g-5">
-  <div class="bg-light">
-    <div class="bg-light text-center">
-	<img src="./images/5.jpg" class="rounded-circle w-50" alt="...">
-      <div class="card-body">
-        <h5 class="h20 text-center">Google Full Stack  Cloud Realidad virtual</h5>
-        <p class="card-text">GUERRERO PISCO JOSE JHOSYMAR</p>
-      </div>
-    </div>
-  </div>
-  <div class="">
-    <div class="bg-light text-center">
-	<img src="./imgindex/con5.png" class="rounded-circle w-50" alt="...">
-      <div class="card-body">
-        <h5 class="h20 text-center">Google Full Stack   Página web Aplicación</h5>
-        <p class="card-text">MONTUFAR IDME VIZAIDA LEYDIFER</p>
-      </div>
-    </div>
-  </div>
-  <div class="text-start">
-    <div class="bg-light text-center">
-	<img src="./imgindex/con6.png" class="rounded-circle w-50" alt="...">
-      <div class="card-body">
-        <h5 class="h20 text-center">Google Full Stack  Cloud NPL</h5>
-        <p class="h11 card-text">RIVERA AMPUERO DAVID ALEXANDER</p>
-		<br>
-      </div>
-    </div>
-  </div>
-</div>
 <br>
 <br>
 
