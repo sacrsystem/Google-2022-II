@@ -1,12 +1,2 @@
-{
-  "type": "service_account",
-  "project_id": "venta-muebles-tp",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDjb2/BEjzyVukL\nRCViu2CB9s4nIbCYVeBqs2yeJnDfeqYJE08O4idu4L0EllHrxneo+XQHPXf2xv9Y\n4MI4z3ZOBxgjjgAjAFntCAuWxzChGzm1hWEhg3+eZxS0LbvGtZ9B1radYjwHbwRk\nE2ERPhnY0wp6NqMhaIQFSsfUF4Z+EuFsAsFYqaUBLS2MavJnZCcagbUEfSnxK3l+\nN0UYe1oVWS3JlDuZK4Im1iUaSmcSlXqLP+8HJ0aOrndDJakehH4r53TcLhoMJXEl\nuacbMUdCJogk1eVBGBmXFUcoqkVT8mZ3YvUog5PAHDXbi7OLp+3fpnnsGjt+9gnk\nGJU2kQKbAgMBAAECggEAJ29llbkXVz/JlboBr35k6/QC59cYGzncuTOWNE/fB2jp\nTC6MaTy+cKPIMnjsCHE3w1VJkI3QdLopgVwrYRVb4oipX1TaYjdH4GkiNUkhffXO\nClLvthNqd+lQtjMt2XUZgZ18uYpUdUeDH+UaUhaN/cIOEYXSwFKyfYZrYrOXjtlc\neVg/WRTvkwMmALPRAUoVGq1qXREFenDAReTBqHwufMK+4R3CoJwVL0crzzXkjXB/\nxz53+Ayj8H+bA4kAUytLBCikAPTaXlHxVnnk3fmTXst/z8NAEwoe1GklXfiIEu3y\nLHocMLtoYmDYTnqP9eBAO9+yLpWvmZtAq+32tCAcgQKBgQD8MjzlkfEo3jqY1qHc\nx/E9XEdOGU9RQbbg81hNPzL5AiK6l9psoEqi4Pq+wBYwOuUZ/H3TCAM3dUHUun8Z\nZQViUwr4aK/5F8NJynEpMXJI9vNe8ChEsRlKBAVPKxF9xJ7YihCXbzKjuzwdJsQ7\nNuJy7w36gFzIIFHnOcEMKe1mGwKBgQDm3ZfuJuMvCOCaXjjgV1KZQUZOqtoqBkkW\nxsAdUbBNf9D0+5Ny2IMGJgcgDjkKZeXDp26xkpvDYPB4Vc3R8U7CSXziPjGr9h9R\n79RRLMTaqw+B8FCWz/5ohKf18BrKBxBOIPM8mYEIZkKKd3XOcmQtm9WsCCJfhucJ\nwZxPqBadgQKBgQCaIUXwc+o0NOURBZO08Alym9QEWhmMqqHPB0n/I9HON0zsRuQ6\nIRicRO1Z6OFmpofgAt0PPUVh/mq2TShiZ8gLmH8K5Egv7yLuFShlqY+UIkEI07N4\nj9fJ0X1BLiwpdiIyaubK9i23vTV3B3tEST3KSml7oDmUIZSMwVJHUdSB4wKBgQC+\n+Y3FpouGC/zoFYtNIU8lkZacWr7vxpVNbwna9wk1gscS8M0vUqVIP8rjHIDY9iPT\n7rwlzlZlj9o8YRZKVihFlc7lxHcIfie4ewESSUtqa9j/LxErQFF+mkXqrz0p5B/7\n0UwE1CKmFRl0O4/LQFtYUzG1BmGQziJusqcgSbazgQKBgQCH1xVaUfvqkDPcvzbe\n64aSKUgtAR+B3X93xw5VdJXoBndXwaGdQqiFnS/Tp5oflP2gZ+7XPINFD4+4Xwsx\nCDnMeCDmjTRhOcGD0sjXxUTcNDzolPj+JSfINIvHDTuRDVTiE2geY+OlzNvQ/SXV\npq8D2ZOdG3VlafQpFJzZkkDTrA==\n-----END PRIVATE KEY-----\n",
-  "client_email": "venta-muebles-tp@appspot.gserviceaccount.com",
-  "client_id": "116743334926931995009",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/venta-muebles-tp%40appspot.gserviceaccount.com"
-}
+
 
