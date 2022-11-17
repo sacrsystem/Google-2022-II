@@ -12,7 +12,7 @@ $imageAnnotator = new ImageAnnotatorClient(
         'credentials' => 'key.json'
     ]
 );
-$path = "https://venta-muebles-tp.uc.r.appspot.com/imagen/$img";
+$path = "https://vmuebles-tp.uc.r.appspot.com/imagen/$img";
  $image = file_get_contents($path);
  //$image= fopen($_FILES['image']['tmp_name'],'r');
  $response = $imageAnnotator->objectLocalization($image);
